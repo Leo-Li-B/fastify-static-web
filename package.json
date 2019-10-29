@@ -1,27 +1,15 @@
 {
-  "name": "bayside",
+  "name": "fast-web",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/chawk/bayside.svg?branch=master)](https://travis-ci.org/chawk/bayside)",
-  "main": "bayside.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chawk/bayside.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chawk/bayside/issues"
-  },
-  "homepage": "https://github.com/chawk/bayside#readme",
   "dependencies": {
-    "fastify": "^2.6.0",
+    "fastify": "^2.10.0",
     "fastify-static": "^2.5.0"
   }
 }

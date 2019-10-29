@@ -3,18 +3,17 @@ const fastify = require('fastify')({ logger: true })
 const path = require('path');
 
 // Declare a route
-
 fastify.register(require('fastify-static'), {
-    root: path.join(__dirname, 'public'),
-    prefix: '/public/', // optional: default '/'
+  root: path.join(__dirname, 'public'),
+  prefix: '/public/', // optional: default '/'
 })
 
 fastify.get('/', function (req, reply) {
-    reply.sendFile('index.html')
+  reply.sendFile('index.html')
 })
 
 fastify.get('/about', async (request, reply) => {
-  return { about: 'Chris Hawkes' }
+  return { about: 'Leo Li' }
 })
 
 // Run the server!
