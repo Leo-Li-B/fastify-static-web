@@ -30,9 +30,9 @@ $ node server.js
 
 ## Author
 
+Leo Li
 Chris Hawkes
 
 [YouTube](https://www.youtube.com/channel/UCfV36TX5AejfAGIbtwTc7Zw)
 
-[Twitter](https://twitter.com/RealChrisHawkes)
 
